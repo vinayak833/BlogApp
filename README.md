@@ -29,3 +29,83 @@ A modern full-stack blogging platform built with **Node.js**, **Express.js**, **
 | **File Upload** | Multer |
 
 ---
+
+## Project Structure
+
+```text
+BlogApp/
+├── controllers/
+├── middlewares/
+│   └── authentication.js
+├── models/
+│   ├── blog.js
+│   ├── comment.js
+│   └── user.js
+├── public/
+├── views/
+├── routes/
+├── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- MongoDB (Local or MongoDB Atlas)
+- npm
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project directory
+
+```bash
+cd BlogApp
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Create a `.env` file
+
+```env
+PORT=8000
+MONGO_URL=mongodb://localhost:27017/blogapp
+JWT_SECRET=your_secret_key
+```
+
+5. Start the application
+
+Development:
+
+```bash
+npm run dev
+```
+
+Production:
+
+```bash
+npm start
+```
+
+6. Open your browser and visit:
+
+```
+http://localhost:8000
+```
+
+---
+
