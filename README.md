@@ -1,8 +1,4 @@
-# Blog Application
 
-A modern full-stack blogging platform built with **Node.js**, **Express.js**, **MongoDB**, and **EJS**. The application allows users to create accounts, publish blog posts with cover images, and interact through comments using secure JWT-based authentication.
-
----
 
 ## Features
 
